@@ -19,7 +19,5 @@ def sort_array_char_count(array)
 end
 
 def swap_elements_from_to(array)
-  #Build a method swap_elements that takes in an array and swaps the second and third elements. Remember that array indices start at 0, so the second element has an index of 1 and the third element has an index of 2.
-  array.sort do |a,b|
-  end
+
 end
