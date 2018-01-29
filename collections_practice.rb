@@ -30,3 +30,12 @@ end
 def reverse_array(array)
   new_array = array.reverse
 end
+
+def kesha_maker(array)
+  return_array = []
+  array.each do |string|
+    string[3] = "$"
+    return_array << string
+  end
+  return_array
+end
