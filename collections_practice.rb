@@ -45,3 +45,14 @@ def find_a(array)
     string.start_with?("a")
   end
 end
+
+def sum_array(array)
+  #Advanced: Try using the .inject method here.
+  sum = 0
+  array. each do |number|
+    if number.is_a? Integer
+      sum += number
+    end
+  end
+  sum
+end
