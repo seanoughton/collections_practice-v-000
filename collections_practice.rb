@@ -47,12 +47,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  #Advanced: Try using the .inject method here.
-  sum = 0
-  array. each do |number|
-    if number.is_a? Integer
-      sum += number
+    array.inject do |sum,number|
+        sum + number
     end
-  end
-  sum
 end
